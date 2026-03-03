@@ -125,10 +125,10 @@ export const CONTENT_TEXTS = {
     ]
   },
   impressum: {
-    name: "Einzelhandel-Stellenangebote.de Musterfirma GmbH",
-    address: "Handelsweg 1, 10115 Berlin",
-    contact: "Tel: 030 12345678 | E-Mail: kontakt@einzelhandel-stellenangebote.de",
-    legal: "Amtsgericht Charlottenburg, HRB 123456 B | USt-ID: DE123456789 | Geschäftsführer: Max Mustermann"
+    name: "Einzelhandel-Stellenangebote.de Social Media Venture GmbH",
+    address: "Handelsweg 1, 10437 Berlin",
+    contact: "Tel: +49 30 403 6654 32 | E-Mail: info@socialmediaventure.com",
+    legal: "Amtsgericht Berlin-Charlottenburg, HRB 162557 B | USt-ID: DE298885799 | Geschäftsführer: Thomas Sander"
   }
 };
 
