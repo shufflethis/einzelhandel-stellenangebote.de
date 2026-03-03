@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# einzelhandel-stellenangebote.de - Einzelhandel Stellenangebote
+
+> einzelhandel-stellenangebote.de ist ein spezialisiertes Jobportal fuer Einzelhandel-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Einzelhandel
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://einzelhandel-stellenangebote.de
+- Arbeitgeber-Kontakt: https://einzelhandel-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://einzelhandel-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Einzelhandel-Stellenangebote
+- Karriere-Ratgeber fuer Einzelhandel
+- Gehaltsvergleiche und Brancheninformationen

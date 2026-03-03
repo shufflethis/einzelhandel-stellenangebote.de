@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Thomas Sander",
+  "url": "https://einzelhandel-stellenangebote.de/autor/thomas-sander",
+  "jobTitle": "Gruender & Geschaeftsfuehrer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "einzelhandel-stellenangebote.de",
+    "url": "https://einzelhandel-stellenangebote.de"
+  },
+  "description": "Gruender von einzelhandel-stellenangebote.de - spezialisiertes Jobportal fuer Einzelhandel-Stellenangebote.",
+  "knowsAbout": [
+    "Einzelhandel",
+    "Personalwesen",
+    "Recruiting",
+    "Jobportale"
+  ]
+}
