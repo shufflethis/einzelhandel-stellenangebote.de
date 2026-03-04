@@ -13,6 +13,171 @@ export const MOCK_JOBS: Job[] = [
     id: '1',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
+    location: 'Marktredwitz',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-03-04'
+  },
+  {
+    id: '2',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Thalmässing, Mittelfranken',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-03-04'
+  },
+  {
+    id: '3',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Frankenthal (Pfalz)',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-03-04'
+  },
+  {
+    id: '4',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Viernheim',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-03-04'
+  },
+  {
+    id: '5',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Lampertheim, Hessen',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-03-04'
+  },
+  {
+    id: '6',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Ludwigshafen am Rhein',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-03-04'
+  },
+  {
+    id: '7',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Grünstadt',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-03-04'
+  },
+  {
+    id: '8',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Eisenberg (Pfalz)',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-03-04'
+  },
+  {
+    id: '9',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Hamm (Sieg)',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-03-04'
+  },
+  {
+    id: '10',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Altenkirchen (Westerwald)',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-03-04'
+  },
+  {
+    id: '11',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Wissen, Sieg',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-03-04'
+  },
+  {
+    id: '12',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Höhn, Westerwald',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-03-04'
+  },
+  {
+    id: '13',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Bobingen',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-03-04'
+  },
+  {
+    id: '14',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Mering, Schwaben',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-03-04'
+  },
+  {
+    id: '15',
+    title: 'Kaufleute im Einzelhandel (m/w/d)',
+    company: 'Bartels-Langness Handelsgesellschaft mbH & Co. KG',
+    location: 'Hamburg',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Kaufleute im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-03-04'
+  },
+  {
+    id: '16',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
     location: 'Neumünster, Holstein',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
@@ -21,7 +186,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-03-03'
   },
   {
-    id: '2',
+    id: '17',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
     location: 'Landshut, Isar',
@@ -32,7 +197,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-03-03'
   },
   {
-    id: '3',
+    id: '18',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
     location: 'Augustdorf',
@@ -43,7 +208,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-03-03'
   },
   {
-    id: '4',
+    id: '19',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
     location: 'Bleicherode',
@@ -54,7 +219,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-03-03'
   },
   {
-    id: '5',
+    id: '20',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
     location: 'Leinefelde-Worbis',
@@ -65,7 +230,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-03-03'
   },
   {
-    id: '6',
+    id: '21',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
     location: 'Bad Dürkheim',
@@ -76,7 +241,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-03-03'
   },
   {
-    id: '7',
+    id: '22',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
     location: 'Minden, Westfalen',
@@ -87,7 +252,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-03-03'
   },
   {
-    id: '8',
+    id: '23',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
     location: 'Herford',
@@ -98,7 +263,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-03-03'
   },
   {
-    id: '9',
+    id: '24',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
     location: 'Wildau bei Königs Wusterhausen',
@@ -109,7 +274,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-03-02'
   },
   {
-    id: '10',
+    id: '25',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
     location: 'Kassel, Hessen',
@@ -118,171 +283,6 @@ export const MOCK_JOBS: Job[] = [
     description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
     date: '2026-03-02'
-  },
-  {
-    id: '11',
-    title: 'Kaufleute (m/w/d) im Einzelhandel',
-    company: 'Ortloff GmbH',
-    location: 'Köln',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute (m/w/d) im Einzelhandel',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-02'
-  },
-  {
-    id: '12',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Windischleuba',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-01'
-  },
-  {
-    id: '13',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Leisnig',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-01'
-  },
-  {
-    id: '14',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Lübeck',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-01'
-  },
-  {
-    id: '15',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Bad Schwartau',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-01'
-  },
-  {
-    id: '16',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Stockelsdorf',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-01'
-  },
-  {
-    id: '17',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Leipzig',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-01'
-  },
-  {
-    id: '18',
-    title: 'Verkäufer (m/w/d)',
-    company: 'Action',
-    location: 'Berlin-Mitte',
-    type: 'Vollzeit',
-    category: 'Sonstiges',
-    description: 'Verkäufer (m/w/d)',
-    tags: [],
-    date: '2026-03-03'
-  },
-  {
-    id: '19',
-    title: 'Verkäufer:in in Voll- und Teilzeit (m/w/d) UNIQLO Leipziger Platz, Berlin',
-    company: 'Fast Retailing',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    category: 'Sonstiges',
-    description: 'Verkäufer:in in Voll- und Teilzeit (m/w/d) UNIQLO Leipziger Platz, Berlin',
-    tags: [],
-    date: '2026-03-03'
-  },
-  {
-    id: '20',
-    title: 'Verkäufer Teilzeit - Westfield Überseequartier Hamburg (m/w/d)',
-    company: 'H&M',
-    location: 'Hamburg',
-    type: 'Vollzeit',
-    category: 'Sonstiges',
-    description: 'Verkäufer Teilzeit - Westfield Überseequartier Hamburg (m/w/d)',
-    tags: [],
-    date: '2026-03-03'
-  },
-  {
-    id: '21',
-    title: 'Verkäufer:in in Voll- und Teilzeit (m/w/d) UNIQLO Hackescher Markt, Berlin',
-    company: 'Fast Retailing',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    category: 'Sonstiges',
-    description: 'Verkäufer:in in Voll- und Teilzeit (m/w/d) UNIQLO Hackescher Markt, Berlin',
-    tags: [],
-    date: '2026-03-03'
-  },
-  {
-    id: '22',
-    title: 'Verkauf im Einzelhandel Tattoo',
-    company: 'Barber DTS',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    category: 'Sonstiges',
-    description: 'Verkauf im Einzelhandel Tattoo',
-    tags: [],
-    date: '2026-03-03'
-  },
-  {
-    id: '23',
-    title: 'Verkäufer an Kasse und Bistro (m/w/d)',
-    company: 'Aral',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    category: 'Sonstiges',
-    description: 'Verkäufer an Kasse und Bistro (m/w/d)',
-    tags: [],
-    date: '2026-03-03'
-  },
-  {
-    id: '24',
-    title: 'Verkäufer/in (m/w/d) in Vollzeit | Neueröffnung',
-    company: 'Mango',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    category: 'Sonstiges',
-    description: 'Verkäufer/in (m/w/d) in Vollzeit | Neueröffnung',
-    tags: [],
-    date: '2026-03-03'
-  },
-  {
-    id: '25',
-    title: 'Verkäufer (m/w/x) - Teilzeit',
-    company: 'DECATHLON Deutschland SE & Co. KG',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    category: 'Sonstiges',
-    description: 'Verkäufer (m/w/x) - Teilzeit',
-    tags: [],
-    date: '2026-03-03'
   }
 ];
 
