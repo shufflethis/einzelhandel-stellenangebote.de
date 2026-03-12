@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import JobBoard from '../components/JobBoard';
 import { ViewState } from '../types';
 import { CONTENT_TEXTS, FAQ_ITEMS, MOCK_JOBS } from '../constants';
-import { Check, ArrowRight, Star, TrendingUp, Users, ShieldCheck, MapPin, Search, BookOpen } from 'lucide-react';
+import { Check, ArrowRight, Star, TrendingUp, Users, ShieldCheck, MapPin, Search, BookOpen, ChevronDown } from 'lucide-react';
 
 const Home: React.FC = () => {
   const [currentView, setCurrentView] = useState<ViewState>('HOME');
@@ -220,6 +220,17 @@ const Home: React.FC = () => {
       default:
         return (
           <div className="animate-fade-in">
+            {/* Mobile: Quick Job Access Banner */}
+            <div className="md:hidden bg-primary-600 px-4 py-3">
+              <button
+                onClick={() => setCurrentView('JOBS')}
+                className="w-full flex items-center justify-between text-white font-semibold text-base"
+              >
+                <span>{MOCK_JOBS.length} aktuelle Einzelhandel-Stellen ansehen</span>
+                <ArrowRight className="w-5 h-5 flex-shrink-0" />
+              </button>
+            </div>
+
             {/* Hero Section */}
             <div className="relative bg-white overflow-hidden">
               <div className="max-w-7xl mx-auto">
@@ -233,34 +244,30 @@ const Home: React.FC = () => {
                   >
                     <polygon points="50,0 100,0 50,100 0,100" />
                   </svg>
-                  <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-                    <div className="sm:text-center lg:text-left">
-                      <h1 className="text-4xl tracking-tight font-extrabold text-slate-900 sm:text-5xl md:text-6xl">
+                  <main className="mt-6 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                    <div className="text-center lg:text-left">
+                      <h1 className="text-3xl tracking-tight font-extrabold text-slate-900 sm:text-5xl md:text-6xl">
                         <span className="block xl:inline">Ihr neuer Job im</span>{' '}
                         <span className="block text-primary-600 xl:inline">Einzelhandel</span>
                       </h1>
                       <p className="mt-3 text-base text-slate-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                         {CONTENT_TEXTS.hero.subline}
                       </p>
-                      <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                        <div className="rounded-md shadow">
-                          <button
-                            onClick={() => setCurrentView('JOBS')}
-                            className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 md:py-4 md:text-lg transition-colors"
-                          >
-                            Stellenangebote ansehen
-                          </button>
-                        </div>
-                        <div className="mt-3 sm:mt-0 sm:ml-3">
-                          <button
-                            onClick={() => setCurrentView('EMPLOYERS')}
-                            className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-primary-700 bg-primary-100 hover:bg-primary-200 md:py-4 md:text-lg transition-colors"
-                          >
-                            Für Arbeitgeber
-                          </button>
-                        </div>
+                      <div className="mt-5 sm:mt-8 flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-3">
+                        <button
+                          onClick={() => setCurrentView('JOBS')}
+                          className="w-full sm:w-auto flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 md:py-4 md:text-lg transition-colors shadow"
+                        >
+                          Stellenangebote ansehen
+                        </button>
+                        <button
+                          onClick={() => setCurrentView('EMPLOYERS')}
+                          className="w-full sm:w-auto flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-primary-700 bg-primary-100 hover:bg-primary-200 md:py-4 md:text-lg transition-colors"
+                        >
+                          Für Arbeitgeber
+                        </button>
                       </div>
-                      
+
                       <div className="mt-8 flex items-center justify-center lg:justify-start text-sm text-slate-500">
                         <Star className="w-4 h-4 text-yellow-400 mr-1 fill-current" />
                         <Star className="w-4 h-4 text-yellow-400 mr-1 fill-current" />
@@ -277,33 +284,33 @@ const Home: React.FC = () => {
                 <img
                   className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
                   src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
-                  alt="Modern retail supermarket environment"
+                  alt="Modernes Einzelhandelsumfeld mit Supermarkt"
                 />
               </div>
             </div>
 
             {/* Featured Jobs Teaser */}
-            <div className="bg-slate-50 py-16 border-y border-slate-200">
+            <div className="bg-slate-50 py-10 sm:py-16 border-y border-slate-200">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex flex-col md:flex-row justify-between items-end mb-10 gap-4">
+                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-8 sm:mb-10 gap-4">
                    <div>
-                     <h2 className="text-3xl font-bold text-slate-900">Aktuelle Top-Jobs</h2>
-                     <p className="text-slate-500 mt-2">Bewerben Sie sich direkt bei führenden Handelsunternehmen.</p>
+                     <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">Aktuelle Top-Jobs im Einzelhandel</h2>
+                     <p className="text-slate-500 mt-2 text-sm sm:text-base">Bewerben Sie sich direkt bei führenden Handelsunternehmen in ganz Deutschland.</p>
                    </div>
-                   <button onClick={() => setCurrentView('JOBS')} className="text-primary-600 font-bold flex items-center hover:text-primary-800 transition-colors bg-white px-4 py-2 rounded-lg shadow-sm border border-slate-200">
-                     Alle {MOCK_JOBS.length} Stellen ansehen <ArrowRight className="ml-2 w-5 h-5"/>
+                   <button onClick={() => setCurrentView('JOBS')} className="text-primary-600 font-bold flex items-center hover:text-primary-800 transition-colors bg-white px-4 py-2 rounded-lg shadow-sm border border-slate-200 text-sm sm:text-base whitespace-nowrap">
+                     Alle {MOCK_JOBS.length} Stellen <ArrowRight className="ml-2 w-5 h-5"/>
                    </button>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  {MOCK_JOBS.slice(0, 3).map((job) => (
-                    <div key={job.id} className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-lg transition-all cursor-pointer group" onClick={() => setCurrentView('JOBS')}>
-                      <div className="flex justify-between items-start mb-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+                  {MOCK_JOBS.slice(0, 6).map((job) => (
+                    <div key={job.id} className="bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-lg transition-all cursor-pointer group" onClick={() => setCurrentView('JOBS')}>
+                      <div className="flex justify-between items-start mb-3">
                         <span className="text-xs font-semibold text-primary-700 bg-primary-50 px-2 py-1 rounded border border-primary-100">{job.type}</span>
                         <MapPin className="w-4 h-4 text-slate-400" />
                       </div>
-                      <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-primary-600 transition-colors line-clamp-1">{job.title}</h3>
-                      <p className="text-slate-500 text-sm mb-4 font-medium">{job.company} • {job.location}</p>
-                      <div className="flex items-center text-primary-600 text-sm font-bold mt-auto">
+                      <h3 className="text-base sm:text-lg font-bold text-slate-900 mb-1 group-hover:text-primary-600 transition-colors line-clamp-2">{job.title}</h3>
+                      <p className="text-slate-500 text-sm mb-3 font-medium">{job.company} -- {job.location}</p>
+                      <div className="flex items-center text-primary-600 text-sm font-bold">
                         Details ansehen <ArrowRight className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform"/>
                       </div>
                     </div>
@@ -313,23 +320,23 @@ const Home: React.FC = () => {
             </div>
 
             {/* SEO Content Block (GEO Optimized) */}
-            <div className="py-20 bg-white">
+            <div className="py-12 sm:py-20 bg-white">
                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                 <div className="text-center mb-16">
-                    <h2 className="text-3xl font-bold text-slate-900 mb-4">Karriere-Chancen im Handel</h2>
-                    <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-                      Warum der Einzelhandel mehr als nur ein Job ist – entdecken Sie Ihre Perspektiven.
+                 <div className="text-center mb-10 sm:mb-16">
+                    <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">Karriere-Chancen im Einzelhandel</h2>
+                    <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto">
+                      Warum der Einzelhandel mehr als nur ein Job ist -- entdecken Sie Ihre Perspektiven in einer der wichtigsten Branchen Deutschlands.
                     </p>
                  </div>
-                 
-                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
+
+                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10 mb-12 sm:mb-16">
                     <div className="flex flex-col items-center text-center p-6 bg-slate-50 rounded-2xl">
                        <div className="bg-primary-100 p-4 rounded-full mb-6">
                          <TrendingUp className="w-8 h-8 text-primary-600" />
                        </div>
-                       <h3 className="text-xl font-bold mb-3 text-slate-900">Krisensicher & Relevant</h3>
+                       <h3 className="text-xl font-bold mb-3 text-slate-900">Krisensicher & Systemrelevant</h3>
                        <p className="text-slate-600 leading-relaxed">
-                         Der Einzelhandel ist systemrelevant. Lebensmittel, Drogerie und Bedarfsgüter werden immer gebraucht. Sichern Sie sich einen Arbeitsplatz mit Zukunft.
+                         Der Einzelhandel ist systemrelevant. Lebensmittel, Drogerie und Bedarfsgüter werden immer gebraucht. Mit über 3 Millionen Beschäftigten ist der Einzelhandel einer der größten Arbeitgeber Deutschlands.
                        </p>
                     </div>
                     <div className="flex flex-col items-center text-center p-6 bg-slate-50 rounded-2xl">
@@ -338,7 +345,7 @@ const Home: React.FC = () => {
                        </div>
                        <h3 className="text-xl font-bold mb-3 text-slate-900">Menschen & Kommunikation</h3>
                        <p className="text-slate-600 leading-relaxed">
-                         Ideal für kommunikative Persönlichkeiten. Der direkte Kundenkontakt steht im Mittelpunkt – kein Tag ist wie der andere.
+                         Ideal für kommunikative Persönlichkeiten. Der direkte Kundenkontakt steht im Mittelpunkt -- kein Tag ist wie der andere. Vom Verkaufsgespräch bis zur Teamführung.
                        </p>
                     </div>
                  </div>
@@ -349,31 +356,151 @@ const Home: React.FC = () => {
                      Die Zeiten, in denen es im Handel "nur" ums Regale einräumen ging, sind vorbei. Moderne POS-Systeme, E-Commerce-Anbindung (Omnichannel) und komplexe Logistikprozesse erfordern Fachwissen und Flexibilität.
                    </p>
                    <p>
-                     Ob als <strong>Handelsfachwirt</strong>, <strong>Verkaufsleiter</strong> oder spezialisierter <strong>Fachberater</strong>: Die Aufstiegsmöglichkeiten sind transparent und leistungsbezogen. Besonders gefragt sind aktuell Mitarbeiter mit Kompetenzen im Bereich digitale Warenwirtschaft und Customer Experience.
+                     Ob als <strong>Handelsfachwirt</strong>, <strong>Verkaufsleiter</strong>, <strong>Filialleiter</strong> oder spezialisierter <strong>Fachberater</strong>: Die Aufstiegsmöglichkeiten sind transparent und leistungsbezogen. Besonders gefragt sind aktuell Mitarbeiter mit Kompetenzen im Bereich digitale Warenwirtschaft und Customer Experience.
                    </p>
-                   
-                   <h3 className="text-slate-900 font-bold mt-8">Regionale Schwerpunkte</h3>
                    <p>
-                     Unsere Jobbörse listet Angebote aus ganz Deutschland. Besonders viele Vakanzen finden Sie aktuell in den Metropolregionen:
+                     Typische Berufsbilder im Einzelhandel umfassen: <strong>Kaufmann/-frau im Einzelhandel</strong>, <strong>Verkäufer/in</strong>, <strong>Handelsfachwirt/in</strong>, <strong>Filialleiter/in</strong>, <strong>Visual Merchandiser</strong>, <strong>Kassierer/in</strong> und <strong>Lagerlogistiker/in</strong>. Viele dieser Positionen bieten auch Quereinsteigern attraktive Einstiegsmöglichkeiten.
                    </p>
-                   <ul className="grid grid-cols-2 gap-x-4 text-sm font-medium">
-                     <li>Jobs im Einzelhandel Berlin</li>
-                     <li>Stellenangebote Hamburg</li>
-                     <li>Verkauf Jobs München</li>
-                     <li>Einzelhandel Köln / Bonn</li>
-                     <li>Filialleitung Frankfurt</li>
-                     <li>Aushilfsjobs Stuttgart</li>
-                   </ul>
                  </div>
-                 
-                 <div className="mt-12 p-8 bg-blue-50 rounded-2xl border border-blue-100 text-center">
-                    <h4 className="text-xl font-bold text-blue-900 mb-2">Bereit für den nächsten Schritt?</h4>
-                    <p className="text-blue-800 mb-6">Erstellen Sie noch heute Ihre Bewerbung und finden Sie Ihren Traumjob.</p>
+
+                 <div className="mt-12 p-6 sm:p-8 bg-blue-50 rounded-2xl border border-blue-100 text-center">
+                    <h4 className="text-xl font-bold text-blue-900 mb-2">Bereit für den nächsten Karriereschritt?</h4>
+                    <p className="text-blue-800 mb-6">Finden Sie jetzt Ihren Traumjob im Einzelhandel -- von der Aushilfe bis zur Führungskraft.</p>
                     <button onClick={() => setCurrentView('JOBS')} className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-bold transition-colors shadow-md">
                       Jetzt Jobs finden
                     </button>
                  </div>
                </div>
+            </div>
+
+            {/* GEO SEO: Einzelhandel Jobs nach Stadt */}
+            <div className="py-12 sm:py-16 bg-slate-50 border-t border-slate-200">
+              <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="text-center mb-10">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">Einzelhandel Stellenangebote nach Stadt</h2>
+                  <p className="text-slate-600 max-w-2xl mx-auto">Finden Sie Einzelhandel-Jobs in Ihrer Region. Unsere Jobbörse listet Angebote aus allen deutschen Großstädten.</p>
+                </div>
+                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">
+                  {[
+                    { city: 'Berlin', label: 'Einzelhandel Jobs Berlin' },
+                    { city: 'Hamburg', label: 'Einzelhandel Jobs Hamburg' },
+                    { city: 'München', label: 'Einzelhandel Jobs München' },
+                    { city: 'Köln', label: 'Einzelhandel Jobs Köln' },
+                    { city: 'Frankfurt am Main', label: 'Einzelhandel Jobs Frankfurt' },
+                    { city: 'Stuttgart', label: 'Einzelhandel Jobs Stuttgart' },
+                    { city: 'Düsseldorf', label: 'Einzelhandel Jobs Düsseldorf' },
+                    { city: 'Leipzig', label: 'Einzelhandel Jobs Leipzig' },
+                    { city: 'Dortmund', label: 'Einzelhandel Jobs Dortmund' },
+                    { city: 'Essen', label: 'Einzelhandel Jobs Essen' },
+                    { city: 'Bremen', label: 'Einzelhandel Jobs Bremen' },
+                    { city: 'Dresden', label: 'Einzelhandel Jobs Dresden' },
+                    { city: 'Hannover', label: 'Einzelhandel Jobs Hannover' },
+                    { city: 'Nürnberg', label: 'Einzelhandel Jobs Nürnberg' },
+                    { city: 'Duisburg', label: 'Einzelhandel Jobs Duisburg' },
+                    { city: 'Bochum', label: 'Einzelhandel Jobs Bochum' },
+                    { city: 'Wuppertal', label: 'Einzelhandel Jobs Wuppertal' },
+                    { city: 'Bielefeld', label: 'Einzelhandel Jobs Bielefeld' },
+                    { city: 'Bonn', label: 'Einzelhandel Jobs Bonn' },
+                    { city: 'Mannheim', label: 'Einzelhandel Jobs Mannheim' },
+                    { city: 'Karlsruhe', label: 'Einzelhandel Jobs Karlsruhe' },
+                    { city: 'Augsburg', label: 'Einzelhandel Jobs Augsburg' },
+                    { city: 'Wiesbaden', label: 'Einzelhandel Jobs Wiesbaden' },
+                    { city: 'Münster', label: 'Einzelhandel Jobs Münster' },
+                  ].map((item) => (
+                    <button
+                      key={item.city}
+                      onClick={() => setCurrentView('JOBS')}
+                      className="flex items-center gap-2 bg-white px-3 py-2.5 sm:px-4 sm:py-3 rounded-lg border border-slate-200 hover:border-primary-300 hover:shadow-sm transition-all text-left group"
+                    >
+                      <MapPin className="w-3.5 h-3.5 text-primary-500 flex-shrink-0" />
+                      <span className="text-xs sm:text-sm font-medium text-slate-700 group-hover:text-primary-600 transition-colors">{item.label}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Karriere-Informationen Einzelhandel */}
+            <div className="py-12 sm:py-16 bg-white border-t border-slate-200">
+              <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="text-center mb-10">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">Karriere im Einzelhandel -- Alles was Sie wissen müssen</h2>
+                  <p className="text-slate-600">Vom Einstieg bis zur Führungsposition: Ihr Karriereweg im deutschen Einzelhandel.</p>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                  <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                    <h3 className="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                      <BookOpen className="w-5 h-5 mr-2 text-primary-600" /> Ausbildung im Einzelhandel
+                    </h3>
+                    <p className="text-slate-600 text-sm leading-relaxed">
+                      Die Ausbildung zum/zur <strong>Kaufmann/-frau im Einzelhandel</strong> dauert 3 Jahre und gehört zu den beliebtesten Ausbildungsberufen in Deutschland. Sie umfasst Kundenberatung, Warenwirtschaft, Kassensysteme und Verkaufstechniken. Eine verkürzte Ausbildung zum/zur <strong>Verkäufer/in</strong> (2 Jahre) ist ebenfalls möglich.
+                    </p>
+                  </div>
+                  <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                    <h3 className="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                      <TrendingUp className="w-5 h-5 mr-2 text-primary-600" /> Gehalt im Einzelhandel
+                    </h3>
+                    <p className="text-slate-600 text-sm leading-relaxed">
+                      Die Gehälter variieren je nach Position, Region und Tarifbindung. <strong>Verkäufer/innen</strong> verdienen durchschnittlich 24.000--30.000 EUR brutto/Jahr. <strong>Filialleiter/innen</strong> liegen bei 38.000--55.000 EUR, <strong>Bezirksleiter/innen</strong> bei 50.000--75.000 EUR. Tarifverträge bieten zusätzlich Urlaubs- und Weihnachtsgeld.
+                    </p>
+                  </div>
+                  <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                    <h3 className="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                      <Users className="w-5 h-5 mr-2 text-primary-600" /> Quereinsteiger willkommen
+                    </h3>
+                    <p className="text-slate-600 text-sm leading-relaxed">
+                      Viele Handelsunternehmen suchen aktiv <strong>Quereinsteiger</strong>. Besonders in den Bereichen Verkauf, Kasse und Warenverräumung sind Motivation und Kundenorientierung oft wichtiger als formale Qualifikationen. Große Ketten wie REWE, EDEKA, ALDI und Lidl bieten intensive Einarbeitungsprogramme.
+                    </p>
+                  </div>
+                  <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                    <h3 className="text-lg font-bold text-slate-900 mb-3 flex items-center">
+                      <ShieldCheck className="w-5 h-5 mr-2 text-primary-600" /> Weiterbildung & Aufstieg
+                    </h3>
+                    <p className="text-slate-600 text-sm leading-relaxed">
+                      Der klassische Aufstiegsweg: Vom <strong>Verkäufer</strong> über den <strong>Erstverkäufer</strong> zum <strong>Abteilungsleiter</strong> und <strong>Filialleiter</strong>. Der <strong>Handelsfachwirt (IHK)</strong> ist die beliebte Aufstiegsfortbildung. Viele Handelsketten bieten eigene Akademie-Programme für Nachwuchsführungskräfte an.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* FAQ Section */}
+            <div className="py-12 sm:py-16 bg-slate-50 border-t border-slate-200">
+              <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="text-center mb-10">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3 flex items-center justify-center">
+                    <BookOpen className="w-6 h-6 sm:w-7 sm:h-7 mr-2 text-primary-600" /> Häufige Fragen zu Jobs im Einzelhandel
+                  </h2>
+                  <p className="text-slate-600">Antworten auf die wichtigsten Fragen rund um Stellenangebote und Karriere im Einzelhandel.</p>
+                </div>
+                <div className="space-y-4">
+                  {[
+                    ...FAQ_ITEMS,
+                    {
+                      question: "Welche Arbeitszeiten sind im Einzelhandel üblich?",
+                      answer: "Die Arbeitszeiten im Einzelhandel variieren je nach Unternehmen und Bundesland. Typisch sind Schichtmodelle zwischen 6:00 und 22:00 Uhr, Montag bis Samstag. Viele Arbeitgeber bieten flexible Teilzeitmodelle an."
+                    },
+                    {
+                      question: "Was verdient man als Verkäufer/in im Einzelhandel?",
+                      answer: "Das Einstiegsgehalt für Verkäufer/innen liegt bei ca. 24.000-28.000 EUR brutto pro Jahr. Mit Berufserfahrung und Tarifbindung sind 30.000-35.000 EUR möglich. Filialleiter verdienen deutlich mehr, typischerweise zwischen 38.000-55.000 EUR."
+                    },
+                    {
+                      question: "Welche Unternehmen stellen im Einzelhandel besonders häufig ein?",
+                      answer: "Zu den größten Arbeitgebern im Einzelhandel gehören REWE, EDEKA, die Schwarz-Gruppe (Lidl/Kaufland), ALDI, dm-drogerie markt, Rossmann, IKEA und die Metro-Gruppe. Diese Unternehmen bieten regelmäßig Stellen in ganz Deutschland an."
+                    },
+                  ].map((faq, idx) => (
+                    <div key={idx} className="bg-white rounded-xl p-5 shadow-sm border border-slate-200" itemScope itemType="https://schema.org/Question">
+                      <h3 className="font-bold text-slate-900 mb-2 flex items-start" itemProp="name">
+                        <span className="text-primary-600 mr-2 flex-shrink-0">?</span> {faq.question}
+                      </h3>
+                      <div itemScope itemType="https://schema.org/Answer" itemProp="acceptedAnswer">
+                        <p className="text-slate-600 text-sm ml-5" itemProp="text">{faq.answer}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         );

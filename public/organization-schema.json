@@ -1,17 +1,32 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "einzelhandel-stellenangebote.de",
+  "name": "Social Media Venture GmbH",
+  "legalName": "Social Media Venture GmbH",
   "url": "https://einzelhandel-stellenangebote.de",
   "description": "Spezialisiertes Jobportal fuer Einzelhandel-Stellenangebote in Deutschland, Oesterreich und der Schweiz.",
   "logo": "https://einzelhandel-stellenangebote.de/logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Schliemannstrasse 23",
+    "addressLocality": "Berlin",
+    "postalCode": "10437",
+    "addressCountry": "DE"
+  },
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "customer service",
+    "telephone": "+49-30-959988700",
+    "email": "info@socialmediaventure.com",
     "availableLanguage": [
       "German",
       "English"
     ]
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Thomas Sander",
+    "sameAs": "https://de.linkedin.com/in/thomas-sander-520676303"
   },
   "sameAs": []
 }

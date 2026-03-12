@@ -4,6 +4,9 @@ Allow: /
 
 Sitemap: https://einzelhandel-stellenangebote.de/sitemap.xml
 
+# LLMs.txt
+# https://einzelhandel-stellenangebote.de/llms.txt
+
 # LLM-specific crawlers
 User-agent: GPTBot
 Allow: /
@@ -18,4 +21,13 @@ User-agent: Anthropic-ai
 Allow: /
 
 User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
 Allow: /

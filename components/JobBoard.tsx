@@ -20,21 +20,21 @@ const JobBoard: React.FC = () => {
   }, [searchTerm, selectedType, selectedCategory]);
 
   return (
-    <div className="bg-slate-50 py-12">
+    <div className="bg-slate-50 py-8 sm:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Search Header */}
-        <div className="text-center mb-10">
-          <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl mb-4">Aktuelle Stellen im Einzelhandel</h2>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+        <div className="text-center mb-6 sm:mb-10">
+          <h2 className="text-2xl font-bold text-slate-900 sm:text-4xl mb-3 sm:mb-4">Aktuelle Stellen im Einzelhandel</h2>
+          <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto">
             Finden Sie unter {MOCK_JOBS.length} offenen Positionen Ihren neuen Traumjob. Täglich aktualisiert.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-8">
           {/* Filters Sidebar */}
-          <div className="lg:col-span-1 space-y-6">
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 sticky top-24">
+          <div className="lg:col-span-1 space-y-6 order-2 lg:order-none">
+            <div className="bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-slate-100 lg:sticky lg:top-24">
               <h3 className="font-semibold text-lg mb-4 flex items-center">
                 <Search className="w-5 h-5 mr-2 text-primary-600" /> Filter
               </h3>
@@ -91,7 +91,7 @@ const JobBoard: React.FC = () => {
           </div>
 
           {/* Job List */}
-          <div className="lg:col-span-3 space-y-4">
+          <div className="lg:col-span-3 space-y-4 order-1 lg:order-none">
             {filteredJobs.length > 0 ? (
               filteredJobs.map((job) => (
                 <div key={job.id} className="bg-white rounded-xl shadow-sm border border-slate-100 p-6 hover:shadow-md transition-shadow group">

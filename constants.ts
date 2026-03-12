@@ -331,8 +331,8 @@ export const CONTENT_TEXTS = {
     ]
   },
   impressum: {
-    name: "Einzelhandel-Stellenangebote.de Social Media Venture GmbH",
-    address: "Handelsweg 1, 10437 Berlin",
+    name: "Social Media Venture GmbH",
+    address: "Schliemannstraße 23, 10437 Berlin",
     contact: "Tel: +49 30 959 988 700 | E-Mail: info@socialmediaventure.com",
     legal: "Amtsgericht Berlin-Charlottenburg, HRB 162557 B | USt-ID: DE298885799 | Geschäftsführer: Thomas Sander"
   }
