@@ -40,7 +40,7 @@ const Home: React.FC = () => {
                   {CONTENT_TEXTS.employers.intro}
                 </p>
                 <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
-                  <button onClick={() => window.location.href = 'mailto:vertrieb@einzelhandel-stellenangebote.de'} className="bg-primary-600 hover:bg-primary-700 text-white px-8 py-3 rounded-lg font-bold text-lg transition-all shadow-lg hover:shadow-primary-500/30">
+                  <button onClick={() => window.location.href = 'mailto:info@socialmediaventure.com'} className="bg-primary-600 hover:bg-primary-700 text-white px-8 py-3 rounded-lg font-bold text-lg transition-all shadow-lg hover:shadow-primary-500/30">
                     Jetzt Stelle schalten
                   </button>
                   <button className="bg-white/10 hover:bg-white/20 text-white px-8 py-3 rounded-lg font-bold text-lg backdrop-blur-sm transition-all border border-white/20">
