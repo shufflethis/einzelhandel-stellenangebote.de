@@ -11,278 +11,278 @@ export const NAVIGATION_ITEMS = [
 export const MOCK_JOBS: Job[] = [
   {
     id: '1',
-    title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
-    company: 'Medisca GmbH',
-    location: 'Kabelsketal',
+    title: 'Sachbearbeitung Umsatzsteuer und Kommunalabgaben (m/w/d)',
+    company: 'Gemeinde HudeSofort-Bewerbung',
+    location: 'Hude (Oldb)',
     type: 'Vollzeit',
     category: 'Sonstiges',
-    description: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    description: 'Sachbearbeitung Umsatzsteuer und Kommunalabgaben (m/w/d)',
     tags: [],
-    date: '2026-03-15'
+    date: '2026-03-22'
   },
   {
     id: '2',
-    title: 'Zahnarzt (m/w/d)',
-    company: 'MeinDentist Berlin GmbH',
-    location: 'Potsdam',
-    type: 'Vollzeit',
-    category: 'Sonstiges',
-    description: 'Zahnarzt (m/w/d)',
-    tags: [],
-    date: '2026-03-15'
-  },
-  {
-    id: '3',
-    title: 'Zahnarzt (m/w/d)',
-    company: 'MeinDentist Berlin GmbH',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    category: 'Sonstiges',
-    description: 'Zahnarzt (m/w/d)',
-    tags: [],
-    date: '2026-03-15'
-  },
-  {
-    id: '4',
-    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
-    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
-    location: 'Hannover',
-    type: 'Vollzeit',
-    category: 'Sonstiges',
-    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
-    tags: [],
-    date: '2026-03-15'
-  },
-  {
-    id: '5',
-    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
-    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
-    location: 'Isernhagen',
-    type: 'Vollzeit',
-    category: 'Sonstiges',
-    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
-    tags: [],
-    date: '2026-03-15'
-  },
-  {
-    id: '6',
-    title: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
-    company: 'Neuerburg GrundstücksgemeinschaftSofort-Bewerbung',
+    title: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
+    company: 'Serviscope AG',
     location: 'Köln',
     type: 'Vollzeit',
     category: 'Sonstiges',
-    description: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    description: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
     tags: [],
-    date: '2026-03-15'
+    date: '2026-03-22'
+  },
+  {
+    id: '3',
+    title: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
+    company: 'Serviscope AG',
+    location: 'Troisdorf',
+    type: 'Vollzeit',
+    category: 'Sonstiges',
+    description: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
+    tags: [],
+    date: '2026-03-22'
+  },
+  {
+    id: '4',
+    title: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
+    company: 'Scheidt & Bachmann Signalling Systems GmbH',
+    location: 'Düsseldorf',
+    type: 'Vollzeit',
+    category: 'Sonstiges',
+    description: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
+    tags: [],
+    date: '2026-03-22'
+  },
+  {
+    id: '5',
+    title: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
+    company: 'Scheidt & Bachmann Signalling Systems GmbH',
+    location: 'Mönchengladbach',
+    type: 'Vollzeit',
+    category: 'Sonstiges',
+    description: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
+    tags: [],
+    date: '2026-03-22'
+  },
+  {
+    id: '6',
+    title: 'Versand- & Lagermitarbeiter (m/w/d) als Shipping & Receiving Clerk',
+    company: 'Elevate Aircraft Seating GmbH',
+    location: 'Kaiserslautern',
+    type: 'Vollzeit',
+    category: 'Sonstiges',
+    description: 'Versand- & Lagermitarbeiter (m/w/d) als Shipping & Receiving Clerk',
+    tags: [],
+    date: '2026-03-22'
   },
   {
     id: '7',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Uffenheim',
+    title: 'Ausbilder*in im Einzelhandel',
+    company: 'Faprik gGmbH',
+    location: 'Frankfurt am Main',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    description: 'Ausbilder*in im Einzelhandel',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '8',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
-    location: 'Chemnitz, Sachsen',
+    location: 'Augsburg, Bayern',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
     description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '9',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'EDEKA',
-    location: 'Köln',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Stadtbergen',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '10',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'Woolworth GmbH',
-    location: 'Pforzheim',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Gersthofen',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '11',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'Woolworth GmbH',
-    location: 'Würzburg',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Königsbrunn bei Augsburg',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '12',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'Woolworth GmbH',
-    location: 'Solingen',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Untermeitingen',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '13',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'ALDI Nord',
-    location: 'Berlin',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Buchloe',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '14',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'Woolworth GmbH',
-    location: 'Kiel',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Bad Wörishofen',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '15',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'Woolworth GmbH',
-    location: 'Magdeburg',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Mindelheim',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '16',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'Woolworth GmbH',
-    location: 'Essen, Ruhr',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Landsberg am Lech',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '17',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'Woolworth GmbH',
-    location: 'Wiesbaden',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Ottobeuren',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '18',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'Woolworth GmbH',
-    location: 'Bonn',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Schwabmünchen',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '19',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'Woolworth GmbH',
-    location: 'Hamburg',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Eggenfelden',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '20',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'Woolworth GmbH',
-    location: 'Berlin',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Taufkirchen (Vils)',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '21',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'Modehaus ZINSER GmbH & CO. KG',
-    location: 'Lahr, Schwarzwald',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Frontenhausen',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '22',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'Modehaus ZINSER GmbH & CO. KG',
-    location: 'Bad Mergentheim',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Neuötting',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '23',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'Modehaus ZINSER GmbH & CO. KG',
-    location: 'Offenburg',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Plattling',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '24',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'Modehaus ZINSER GmbH & CO. KG',
-    location: 'Tübingen',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Vilshofen an der Donau',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   },
   {
     id: '25',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'Modehaus ZINSER GmbH & CO. KG',
-    location: 'Reutlingen',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Aldersbach',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-13'
+    date: '2026-03-20'
   }
 ];
 
