@@ -11,278 +11,278 @@ export const NAVIGATION_ITEMS = [
 export const MOCK_JOBS: Job[] = [
   {
     id: '1',
-    title: 'Sachbearbeitung Umsatzsteuer und Kommunalabgaben (m/w/d)',
-    company: 'Gemeinde HudeSofort-Bewerbung',
-    location: 'Hude (Oldb)',
+    title: 'Elektrotechniker EMSR-Technik (w/m/d)',
+    company: 'Infraserv GmbH & Co. Höchst KG',
+    location: 'Frankfurt am Main',
     type: 'Vollzeit',
     category: 'Sonstiges',
-    description: 'Sachbearbeitung Umsatzsteuer und Kommunalabgaben (m/w/d)',
+    description: 'Elektrotechniker EMSR-Technik (w/m/d)',
     tags: [],
-    date: '2026-03-22'
+    date: '2026-03-29'
   },
   {
     id: '2',
-    title: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
-    company: 'Serviscope AG',
-    location: 'Köln',
+    title: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    company: 'Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)',
+    location: 'Langenhagen',
     type: 'Vollzeit',
     category: 'Sonstiges',
-    description: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
+    description: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
     tags: [],
-    date: '2026-03-22'
+    date: '2026-03-29'
   },
   {
     id: '3',
-    title: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
-    company: 'Serviscope AG',
-    location: 'Troisdorf',
+    title: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    company: 'Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)',
+    location: 'Bochum',
     type: 'Vollzeit',
     category: 'Sonstiges',
-    description: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
+    description: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
     tags: [],
-    date: '2026-03-22'
+    date: '2026-03-29'
   },
   {
     id: '4',
-    title: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
-    company: 'Scheidt & Bachmann Signalling Systems GmbH',
-    location: 'Düsseldorf',
+    title: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    company: 'Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)',
+    location: 'Ober-Olm',
     type: 'Vollzeit',
     category: 'Sonstiges',
-    description: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
+    description: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
     tags: [],
-    date: '2026-03-22'
+    date: '2026-03-29'
   },
   {
     id: '5',
-    title: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
-    company: 'Scheidt & Bachmann Signalling Systems GmbH',
-    location: 'Mönchengladbach',
+    title: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    company: 'Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)',
+    location: 'Heidelberg',
     type: 'Vollzeit',
     category: 'Sonstiges',
-    description: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
+    description: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
     tags: [],
-    date: '2026-03-22'
+    date: '2026-03-29'
   },
   {
     id: '6',
-    title: 'Versand- & Lagermitarbeiter (m/w/d) als Shipping & Receiving Clerk',
-    company: 'Elevate Aircraft Seating GmbH',
-    location: 'Kaiserslautern',
+    title: 'Elektroniker für Betriebstechnik (m/w/d)',
+    company: 'OFTEC Oberflächentechnik GmbH & Co. KG',
+    location: 'Hagenbach',
     type: 'Vollzeit',
     category: 'Sonstiges',
-    description: 'Versand- & Lagermitarbeiter (m/w/d) als Shipping & Receiving Clerk',
+    description: 'Elektroniker für Betriebstechnik (m/w/d)',
     tags: [],
-    date: '2026-03-22'
+    date: '2026-03-29'
   },
   {
     id: '7',
-    title: 'Ausbilder*in im Einzelhandel',
-    company: 'Faprik gGmbH',
-    location: 'Frankfurt am Main',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Erfurt',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Ausbilder*in im Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    date: '2026-03-28'
   },
   {
     id: '8',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
-    location: 'Augsburg, Bayern',
+    location: 'Erkelenz',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
     description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    date: '2026-03-28'
   },
   {
     id: '9',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
-    location: 'Stadtbergen',
+    location: 'Hückelhoven',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
     description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    date: '2026-03-28'
   },
   {
     id: '10',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
-    location: 'Gersthofen',
+    location: 'Nettetal',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
     description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    date: '2026-03-28'
   },
   {
     id: '11',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
-    location: 'Königsbrunn bei Augsburg',
+    location: 'Übach-Palenberg',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
     description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    date: '2026-03-28'
   },
   {
     id: '12',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
-    location: 'Untermeitingen',
+    location: 'Wassenberg',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
     description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    date: '2026-03-28'
   },
   {
     id: '13',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
-    location: 'Buchloe',
+    location: 'Heinsberg, Rheinland',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
     description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    date: '2026-03-28'
   },
   {
     id: '14',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
-    location: 'Bad Wörishofen',
+    location: 'Gangelt',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
     description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    date: '2026-03-28'
   },
   {
     id: '15',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
-    location: 'Mindelheim',
+    location: 'Wegberg',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
     description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    date: '2026-03-28'
   },
   {
     id: '16',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
-    location: 'Landsberg am Lech',
+    location: 'Selfkant',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
     description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    date: '2026-03-28'
   },
   {
     id: '17',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
-    location: 'Ottobeuren',
+    location: 'Erkrath',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
     description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    date: '2026-03-28'
   },
   {
     id: '18',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
-    location: 'Schwabmünchen',
+    location: 'Mettmann',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
     description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    date: '2026-03-28'
   },
   {
     id: '19',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Eggenfelden',
+    title: 'Verkäufer/in (m/w/d) im Einzelhandel',
+    company: 'Renner GmbH & Co KG',
+    location: 'Hameln',
     type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    category: 'Verkäufer/in',
+    description: 'Verkäufer/in (m/w/d) im Einzelhandel',
+    tags: ['Verkäufer/in'],
+    date: '2026-03-27'
   },
   {
     id: '20',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
-    location: 'Taufkirchen (Vils)',
+    location: 'Burglengenfeld',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
     description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    date: '2026-03-27'
   },
   {
     id: '21',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
-    location: 'Frontenhausen',
+    location: 'Burgau, Schwaben',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
     description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    date: '2026-03-27'
   },
   {
     id: '22',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Neuötting',
+    title: 'Kaufmann/-frau im Einzelhandel (m/w/d)',
+    company: 'OT Baßler GmbH',
+    location: 'Erlangen',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    description: 'Kaufmann/-frau im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    date: '2026-03-26'
   },
   {
     id: '23',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Plattling',
+    title: 'Kaufmann im Einzelhandel (m/w/d)',
+    company: 'Electronic Seidel GmbH',
+    location: 'Speyer',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    description: 'Kaufmann im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    date: '2026-03-26'
   },
   {
     id: '24',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Vilshofen an der Donau',
+    title: 'Unterstützung im Einzelhandel',
+    company: 'Alexei Wenkler-Gourji Einzelhandel',
+    location: 'Wesel am Rhein',
     type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    category: 'Helfer/in - Verkauf',
+    description: 'Unterstützung im Einzelhandel',
+    tags: ['Helfer/in - Verkauf'],
+    date: '2026-03-26'
   },
   {
     id: '25',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Aldersbach',
+    title: 'Verkäufer im Einzelhandel (m/w/d)',
+    company: 'Renschler GmbH',
+    location: 'Herrenberg im Gäu',
     type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-03-20'
+    category: 'Verkäufer/in',
+    description: 'Verkäufer im Einzelhandel (m/w/d)',
+    tags: ['Verkäufer/in'],
+    date: '2026-03-25'
   }
 ];
 
