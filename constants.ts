@@ -11,6 +11,160 @@ export const NAVIGATION_ITEMS = [
 export const MOCK_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Vorarbeiter Reinigung in Vollzeit (m/w/d)',
+    company: 'Albert Schweitzer Stiftung - Wohnen & Betreuen',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    category: 'Sonstiges',
+    description: 'Vorarbeiter Reinigung in Vollzeit (m/w/d)',
+    tags: [],
+    date: '2026-04-12'
+  },
+  {
+    id: '2',
+    title: 'Fahrzeuglackierer (m/w/d) für mobile Kfz-Lackierarbeiten im Außendienst in Vollzeit',
+    company: 'Einzelunternehmen Andreas SchmitzSofort-Bewerbung',
+    location: 'Köln',
+    type: 'Vollzeit',
+    category: 'Sonstiges',
+    description: 'Fahrzeuglackierer (m/w/d) für mobile Kfz-Lackierarbeiten im Außendienst in Vollzeit',
+    tags: [],
+    date: '2026-04-12'
+  },
+  {
+    id: '3',
+    title: 'Fahrzeuglackierer (m/w/d) für mobile Kfz-Lackierarbeiten im Außendienst in Vollzeit',
+    company: 'Einzelunternehmen Andreas SchmitzSofort-Bewerbung',
+    location: 'Bonn',
+    type: 'Vollzeit',
+    category: 'Sonstiges',
+    description: 'Fahrzeuglackierer (m/w/d) für mobile Kfz-Lackierarbeiten im Außendienst in Vollzeit',
+    tags: [],
+    date: '2026-04-12'
+  },
+  {
+    id: '4',
+    title: 'Fahrzeuglackierer (m/w/d) für mobile Kfz-Lackierarbeiten im Außendienst in Vollzeit',
+    company: 'Einzelunternehmen Andreas SchmitzSofort-Bewerbung',
+    location: 'Leverkusen',
+    type: 'Vollzeit',
+    category: 'Sonstiges',
+    description: 'Fahrzeuglackierer (m/w/d) für mobile Kfz-Lackierarbeiten im Außendienst in Vollzeit',
+    tags: [],
+    date: '2026-04-12'
+  },
+  {
+    id: '5',
+    title: 'Fahrzeuglackierer (m/w/d) für mobile Kfz-Lackierarbeiten im Außendienst in Vollzeit',
+    company: 'Einzelunternehmen Andreas SchmitzSofort-Bewerbung',
+    location: 'Brühl/Rheinland',
+    type: 'Vollzeit',
+    category: 'Sonstiges',
+    description: 'Fahrzeuglackierer (m/w/d) für mobile Kfz-Lackierarbeiten im Außendienst in Vollzeit',
+    tags: [],
+    date: '2026-04-12'
+  },
+  {
+    id: '6',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Lollar',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-04-10'
+  },
+  {
+    id: '7',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Eutin',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-04-10'
+  },
+  {
+    id: '8',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Preetz, Holstein',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-04-10'
+  },
+  {
+    id: '9',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Schwentinental',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-04-10'
+  },
+  {
+    id: '10',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Blaubeuren',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-04-10'
+  },
+  {
+    id: '11',
+    title: 'Teamleiter im Einzelhandel (m/w/d)',
+    company: 'TEDi GmbH & Co. KG',
+    location: 'Tirschenreuth',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Teamleiter im Einzelhandel (m/w/d)',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-04-10'
+  },
+  {
+    id: '12',
+    title: 'Kaufleute im Einzelhandel',
+    company: 'Woolworth GmbH',
+    location: 'Schwerin, Mecklenburg',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Kaufleute im Einzelhandel',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-04-10'
+  },
+  {
+    id: '13',
+    title: 'Kaufleute im Einzelhandel',
+    company: 'Woolworth GmbH',
+    location: 'Remscheid',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Kaufleute im Einzelhandel',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-04-10'
+  },
+  {
+    id: '14',
+    title: 'Kaufleute im Einzelhandel',
+    company: 'EDEKA',
+    location: 'München',
+    type: 'Vollzeit',
+    category: 'Kaufmann/-frau - Einzelhandel',
+    description: 'Kaufleute im Einzelhandel',
+    tags: ['Kaufmann/-frau - Einzelhandel'],
+    date: '2026-04-10'
+  },
+  {
+    id: '15',
     title: 'Fachkraft für Lagerlogistik (m/w/d)',
     company: 'RATIONAL AG',
     location: 'Landsberg a. Lech',
@@ -21,7 +175,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-04-05'
   },
   {
-    id: '2',
+    id: '16',
     title: 'Aushilfe Warenverräumung (m/w/d) Minijob bzw. Midijob',
     company: 'Böge Textil-Service GmbH & Co. KG',
     location: 'Gelsenkirchen',
@@ -32,7 +186,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-04-05'
   },
   {
-    id: '3',
+    id: '17',
     title: 'Aushilfe Warenverräumung (m/w/d) Minijob bzw. Midijob',
     company: 'Böge Textil-Service GmbH & Co. KG',
     location: 'Oberhausen',
@@ -43,7 +197,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-04-05'
   },
   {
-    id: '4',
+    id: '18',
     title: 'Aushilfe Warenverräumung (m/w/d) Minijob bzw. Midijob',
     company: 'Böge Textil-Service GmbH & Co. KG',
     location: 'Moers',
@@ -54,7 +208,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-04-05'
   },
   {
-    id: '5',
+    id: '19',
     title: 'Aushilfe Warenverräumung (m/w/d) Minijob bzw. Midijob',
     company: 'Böge Textil-Service GmbH & Co. KG',
     location: 'Kamp-Lintfort',
@@ -65,7 +219,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-04-05'
   },
   {
-    id: '6',
+    id: '20',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
     location: 'Göttingen',
@@ -76,7 +230,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-04-04'
   },
   {
-    id: '7',
+    id: '21',
     title: 'Kaufmann im Einzelhandel (m/w/d)',
     company: 'TJX Deutschland Ltd. & Co. KG',
     location: 'Krefeld',
@@ -87,7 +241,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-04-02'
   },
   {
-    id: '8',
+    id: '22',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
     location: 'Steinau an der Straße',
@@ -98,7 +252,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-04-02'
   },
   {
-    id: '9',
+    id: '23',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
     location: 'Bad Soden-Salmünster',
@@ -109,7 +263,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-04-02'
   },
   {
-    id: '10',
+    id: '24',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
     location: 'Schlüchtern',
@@ -120,7 +274,7 @@ export const MOCK_JOBS: Job[] = [
     date: '2026-04-02'
   },
   {
-    id: '11',
+    id: '25',
     title: 'Teamleiter im Einzelhandel (m/w/d)',
     company: 'TEDi GmbH & Co. KG',
     location: 'Eichenzell',
@@ -129,160 +283,6 @@ export const MOCK_JOBS: Job[] = [
     description: 'Teamleiter im Einzelhandel (m/w/d)',
     tags: ['Kaufmann/-frau - Einzelhandel'],
     date: '2026-04-02'
-  },
-  {
-    id: '12',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Wächtersbach',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-04-02'
-  },
-  {
-    id: '13',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Fulda',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-04-02'
-  },
-  {
-    id: '14',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Bad Bergzabern',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-04-02'
-  },
-  {
-    id: '15',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Berg (Pfalz)',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-04-02'
-  },
-  {
-    id: '16',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Wolgast',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-04-02'
-  },
-  {
-    id: '17',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Altenburg, Thüringen',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-04-02'
-  },
-  {
-    id: '18',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Plön',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-04-02'
-  },
-  {
-    id: '19',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Mönchengladbach',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-04-02'
-  },
-  {
-    id: '20',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Korschenbroich',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-04-02'
-  },
-  {
-    id: '21',
-    title: 'Teamleiter im Einzelhandel (m/w/d)',
-    company: 'TEDi GmbH & Co. KG',
-    location: 'Hilden',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Teamleiter im Einzelhandel (m/w/d)',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-04-02'
-  },
-  {
-    id: '22',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'hagebaumarkt',
-    location: 'Haar, Kreis München',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-04-02'
-  },
-  {
-    id: '23',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'hagebaumarkt',
-    location: 'Pfaffenhofen an der Ilm',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-04-02'
-  },
-  {
-    id: '24',
-    title: 'Kaufleute im Einzelhandel',
-    company: 'hagebaumarkt',
-    location: 'München',
-    type: 'Vollzeit',
-    category: 'Kaufmann/-frau - Einzelhandel',
-    description: 'Kaufleute im Einzelhandel',
-    tags: ['Kaufmann/-frau - Einzelhandel'],
-    date: '2026-04-02'
-  },
-  {
-    id: '25',
-    title: 'Elektrotechniker EMSR-Technik (w/m/d)',
-    company: 'Infraserv GmbH & Co. Höchst KG',
-    location: 'Frankfurt am Main',
-    type: 'Vollzeit',
-    category: 'Sonstiges',
-    description: 'Elektrotechniker EMSR-Technik (w/m/d)',
-    tags: [],
-    date: '2026-03-29'
   }
 ];
 
